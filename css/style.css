@@ -4,16 +4,104 @@ html {
 
 body {
     height: 100%;
-    
+    background-color: pink;
+    margin: 0px;
 }
+
 a {
     text-decoration: none;
 }
 
 .main {
     height: 100%;
+    background-image: url(homepic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
 }
+
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+h1{
+    color: red;
+    font-family: 'Charmonman', cursive;
+    font-size: 45px;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    background-color: red;
+    height: 10%;
+    width: 100%;
+}
+
+.nav{
+    color: black;
+    font-family: 'Spicy Rice', cursive;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-decoration: underline;
+}
+
+.social{
+    display:flex;
+    justify-content:space-around;
+    background-color: red;
+}
+
+.rightPane {
+    background-image: url(aboutpic.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+
+.leftPane {
+    width: 50%;
+}
+
+.aboutMain{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.thumbnail-image{
+    margin: 50px;
+    border: 10px solid red;
+    width: 220px;
+    height: 250px;
+}
+
+
+p{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    opacity: 0.7;
+}
+
+body{
+    background-image: url(https://gilmour.com/wp-content/uploads/2018/03/growing-sunflowers.jpg);
+    background-repeat: repeat-y;
+    background-size: 110%;
 }
